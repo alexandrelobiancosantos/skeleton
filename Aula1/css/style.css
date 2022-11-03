@@ -3,13 +3,12 @@ body {
     font-size: 20px;
 }
 
-
 .button.button-secondary,
 button.button-secondary,
 input[type="submit"].button-secondary,
 input[type="reset"].button-secondary,
 input[type="button"].button-secondary {
-    color: #FFF;
+    color: rgb(0, 0, 0);
     background-color: #33f05c;
     border-color: #33f05c;
 }
@@ -24,11 +23,15 @@ button.button-secondary:focus,
 input[type="submit"].button-secondary:focus,
 input[type="reset"].button-secondary:focus,
 input[type="button"].button-secondary:focus {
-    color: #FFF;
+    color: rgb(0, 0, 0);
     background-color: #17ec45;
     border-color: #17ec45;
 }
 
 .container {
-    max-width: 600px;
+    max-width: 900px;
+}
+
+.odd-background-collor tbody>tr:nth-of-type(odd) {
+    background-color: #eeeeee;
 }
