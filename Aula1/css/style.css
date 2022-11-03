@@ -28,3 +28,7 @@ input[type="button"].button-secondary:focus {
     background-color: #17ec45;
     border-color: #17ec45;
 }
+
+.container {
+    max-width: 600px;
+}
