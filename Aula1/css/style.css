@@ -1,3 +1,30 @@
-.row {
-    background: red;
+body {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+
+.button.button-secondary,
+button.button-secondary,
+input[type="submit"].button-secondary,
+input[type="reset"].button-secondary,
+input[type="button"].button-secondary {
+    color: #FFF;
+    background-color: #33f05c;
+    border-color: #33f05c;
+}
+
+.button.button-secondary:hover,
+button.button-secondary:hover,
+input[type="submit"].button-secondary:hover,
+input[type="reset"].button-secondary:hover,
+input[type="button"].button-secondary:hover,
+.button.button-secondary:focus,
+button.button-secondary:focus,
+input[type="submit"].button-secondary:focus,
+input[type="reset"].button-secondary:focus,
+input[type="button"].button-secondary:focus {
+    color: #FFF;
+    background-color: #17ec45;
+    border-color: #17ec45;
 }
